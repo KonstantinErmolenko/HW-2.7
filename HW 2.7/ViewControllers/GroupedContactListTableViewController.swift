@@ -11,11 +11,11 @@ import UIKit
 class GroupedContactListTableViewController: UITableViewController {
 
     // MARK: - Public Properties
-    var personList = Person.getPersons()
+    var contacts = Person.getPersons()
 
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return personList.count
+        return contacts.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -23,14 +23,14 @@ class GroupedContactListTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return personList[section].name
+        return contacts[section].name
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactInfo", for: indexPath)
 
-        let person = personList[indexPath.section]
-        cell.textLabel?.text = indexPath.row == 0 ? person.email: person.phone
+        let contact = contacts[indexPath.section]
+        cell.textLabel?.text = indexPath.row == 0 ? contact.email: contact.phone
         return cell
     }
 }

@@ -18,14 +18,14 @@ extension Person {
         var persons: [Person] = []
         var names = getListOfNames()
         var surnames = getListOfSurnames()
-        var phoneNumbers = getListOfPhoneNumber()
+        var phones = getListOfPhones()
         var emails = getListOfEmails()
         
         for _ in 1...10 {
             
             let name = retrieveRandomElement(from: &names)
             let surname = retrieveRandomElement(from: &surnames)
-            let phone = retrieveRandomElement(from: &phoneNumbers)
+            let phone = retrieveRandomElement(from: &phones)
             let email = retrieveRandomElement(from: &emails)
             let person = Person(
                 name: "\(name) \(surname)",
@@ -73,19 +73,19 @@ extension Person {
         ]
     }
     
-    private static func getListOfPhoneNumber() -> [String] {
+    private static func getListOfPhones() -> [String] {
         return [
-            "+1(802)767-5668",
-            "+1(810)751-9233",
-            "+1(704)841-3845",
-            "+1(803)471-3022",
-            "+1(918)350-4379",
-            "+1(443)346-2245",
-            "+1(920)323-8277",
-            "+1(712)789-3476",
-            "+1(505)350-1306",
-            "+1(970)238-9223",
-            "+1(786)292-5607"
+            "+1 802 767-5668",
+            "+1 810 751-9233",
+            "+1 704 841-3845",
+            "+1 803 471-3022",
+            "+1 918 350-4379",
+            "+1 443 346-2245",
+            "+1 920 323-8277",
+            "+1 712 789-3476",
+            "+1 505 350-1306",
+            "+1 970 238-9223",
+            "+1 786 292-5607"
         ]
     }
     

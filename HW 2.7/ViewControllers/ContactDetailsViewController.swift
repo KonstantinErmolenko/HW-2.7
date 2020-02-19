@@ -1,5 +1,5 @@
 //
-//  ContactDetailViewController.swift
+//  ContactDetailsViewController.swift
 //  HW 2.7
 //
 //  Created by Ермоленко Константин on 19.02.2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContactDetailViewController: UIViewController {
+class ContactDetailsViewController: UIViewController {
 
     // MARK: - IB Outlets
     @IBOutlet var nameLabel: UILabel!
@@ -22,7 +22,7 @@ class ContactDetailViewController: UIViewController {
         super.viewDidLoad()
         
         nameLabel.text = contact.name
-        emailLabel.text = contact.email
-        phoneLabel.text = contact.phone
+        emailLabel.text = "Email: \(contact.email)"
+        phoneLabel.text = "Phone: \(contact.phone)"
     }
 }

@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="1777.5" y="-38.028169014084504"/>
         </scene>
-        <!--Contact Detail View Controller-->
+        <!--Contact Details View Controller-->
         <scene sceneID="5Vf-Xd-l7U">
             <objects>
-                <viewController id="9s9-dd-tBF" customClass="ContactDetailViewController" customModule="HW_2_7" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9s9-dd-tBF" customClass="ContactDetailsViewController" customModule="HW_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fdn-IZ-0uz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
