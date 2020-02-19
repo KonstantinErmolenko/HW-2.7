@@ -1,5 +1,5 @@
 //
-//  PersonsListTableViewController.swift
+//  ContactListTableViewController.swift
 //  HW 2.7
 //
 //  Created by Ермоленко Константин on 19.02.2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PersonsListTableViewController: UITableViewController {
+class ContactListTableViewController: UITableViewController {
 
     // MARK: - Public Properties
     var personList = Person.getPersons()
@@ -31,14 +31,16 @@ class PersonsListTableViewController: UITableViewController {
         return cell
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let person = personList[indexPath.row]
+        performSegue(withIdentifier: "showContactDetails", sender: person)
     }
-    */
 
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showContactDetails" {
+            let detailVC = segue.destination as! ContactDetailViewController
+            detailVC.contact = sender as? Person
+        }
+    }
 }

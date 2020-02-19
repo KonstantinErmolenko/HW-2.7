@@ -8,22 +8,32 @@
 
 struct Person {
     var name: String
+    var phone: String
+    var email: String
 }
 
 extension Person {
     static func getPersons() -> [Person] {
         return [
             Person(
-                name: "John"
+                name: "John",
+                phone: "123123",
+                email: "john@gmail.com"
             ),
             Person(
-                name: "Mary"
+                name: "Mary",
+                phone: "234234",
+                email: "mary@gmail.com"
             ),
             Person(
-                name: "Sam"
+                name: "Sam",
+                phone: "345345",
+                email: "sam@gmail.com"
             ),
             Person(
-                name: "Kate"
+                name: "Kate",
+                phone: "456456",
+                email: "kate@gmail.com"
             )
         ]
     }
