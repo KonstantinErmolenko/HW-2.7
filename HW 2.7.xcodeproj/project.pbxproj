@@ -56,15 +56,55 @@
 		A92686CC23FDA15B0090532C /* HW 2.7 */ = {
 			isa = PBXGroup;
 			children = (
-				A92686CD23FDA15B0090532C /* AppDelegate.swift */,
-				A92686CF23FDA15B0090532C /* SceneDelegate.swift */,
-				A92686D123FDA15B0090532C /* ViewController.swift */,
-				A92686D323FDA15B0090532C /* Main.storyboard */,
-				A92686D623FDA15C0090532C /* Assets.xcassets */,
-				A92686D823FDA15C0090532C /* LaunchScreen.storyboard */,
-				A92686DB23FDA15C0090532C /* Info.plist */,
+				A92686E523FDA35E0090532C /* Model */,
+				A92686E123FDA2B90090532C /* ViewControllers */,
+				A92686E323FDA3110090532C /* Storyboards */,
+				A92686E223FDA2EF0090532C /* Supporting files */,
+				A92686E423FDA31F0090532C /* Resources */,
 			);
 			path = "HW 2.7";
+			sourceTree = "<group>";
+		};
+		A92686E123FDA2B90090532C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A92686D123FDA15B0090532C /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A92686E223FDA2EF0090532C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A92686CD23FDA15B0090532C /* AppDelegate.swift */,
+				A92686CF23FDA15B0090532C /* SceneDelegate.swift */,
+				A92686DB23FDA15C0090532C /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A92686E323FDA3110090532C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A92686D823FDA15C0090532C /* LaunchScreen.storyboard */,
+				A92686D323FDA15B0090532C /* Main.storyboard */,
+			);
+			path = "\U0010Storyboards";
+			sourceTree = "<group>";
+		};
+		A92686E423FDA31F0090532C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A92686D623FDA15C0090532C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A92686E523FDA35E0090532C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59M6A9TM7B;
-				INFOPLIST_FILE = "HW 2.7/Info.plist";
+				INFOPLIST_FILE = "HW 2.7/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59M6A9TM7B;
-				INFOPLIST_FILE = "HW 2.7/Info.plist";
+				INFOPLIST_FILE = "HW 2.7/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
