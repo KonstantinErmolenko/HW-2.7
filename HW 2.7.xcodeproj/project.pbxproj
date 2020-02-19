@@ -15,6 +15,7 @@
 		A92686E923FDA4B60090532C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92686E823FDA4B60090532C /* Person.swift */; };
 		A92686ED23FDA9030090532C /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92686EC23FDA9030090532C /* ContactListTableViewController.swift */; };
 		A92686EF23FDB1DB0090532C /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92686EE23FDB1DB0090532C /* ContactDetailViewController.swift */; };
+		A92686F123FDB83B0090532C /* GroupedContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92686F023FDB83B0090532C /* GroupedContactListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A92686E823FDA4B60090532C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A92686EC23FDA9030090532C /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
 		A92686EE23FDB1DB0090532C /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		A92686F023FDB83B0090532C /* GroupedContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedContactListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				A92686EC23FDA9030090532C /* ContactListTableViewController.swift */,
 				A92686EE23FDB1DB0090532C /* ContactDetailViewController.swift */,
+				A92686F023FDB83B0090532C /* GroupedContactListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				A92686CE23FDA15B0090532C /* AppDelegate.swift in Sources */,
 				A92686E923FDA4B60090532C /* Person.swift in Sources */,
 				A92686D023FDA15B0090532C /* SceneDelegate.swift in Sources */,
+				A92686F123FDB83B0090532C /* GroupedContactListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

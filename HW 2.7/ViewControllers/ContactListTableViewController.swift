@@ -13,10 +13,6 @@ class ContactListTableViewController: UITableViewController {
     // MARK: - Public Properties
     var personList = Person.getPersons()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return personList.count
